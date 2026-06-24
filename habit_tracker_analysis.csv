@@ -1,0 +1,16 @@
+Metric,Formula / Meaning
+Total Days Tracked,=COUNTA(A2:A31)
+Total Habit Completions,=SUM(L2:L31)
+Average Daily Completion %,=AVERAGE(M2:M31)
+Best Day,=MAX(L2:L31)
+Lowest Day,=MIN(L2:L31)
+Exercise Completion Rate,=AVERAGE(D2:D31)
+Reading Completion Rate,=AVERAGE(E2:E31)
+Meditation Completion Rate,=AVERAGE(F2:F31)
+Water Completion Rate,=AVERAGE(G2:G31)
+Sleep Completion Rate,=AVERAGE(H2:H31)
+No Sugar Completion Rate,=AVERAGE(I2:I31)
+Journal Completion Rate,=AVERAGE(J2:J31)
+Study Completion Rate,=AVERAGE(K2:K31)
+Weekly Trend Tip,"Create a pivot table using Week as rows and Daily Completion Count as average/sum"
+Chart Tip,"Create bar charts for habit completion rates and a line chart for Daily Completion %"
